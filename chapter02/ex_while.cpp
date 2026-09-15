@@ -2,12 +2,12 @@
 using namespace std;
 
 int main() {
-    int n{10};                  // 1. 초기 상태
+    int n{ 10 };                  // 1. 초기 상태
 
-    while (n < 0) {            // 2. 반복 조건
-        cout << i << ' ';
-        --i;                   // 3. 상태 변화
+    while (i < 0) {            // 2. 반복 조건
+        cout << n  << ' ';
+        --n;                   // 3. 상태 변화
     }
-    cout << "발사!\n");
+    cout << "발사!\n";
     return 0;
 }
