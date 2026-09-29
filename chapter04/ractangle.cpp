@@ -2,10 +2,10 @@
 using namespace std;
 
 class Rectangle {
-	public:
+	private:
 		int width;
 		int height;
-
+	public:
 		int calcArea() {
 			return width * height;
 		}
