@@ -3,15 +3,15 @@
 using namespace std;
 
 class Student {
-public:
+private:
     string name;
     int age;
-
+public:
     Student() {
         cout << "기본 생성자 호출" << endl;
 	}
 
-	Student(string n, int a) {    // 생성자 초기화 리스트를 사용하여 멤버 변수를 초기화합니다.
+	Student(string n, int a) : name(n),age(a) {    // 생성자 초기화 리스트를 사용하여 멤버 변수를 초기화합니다.
 		name = n;
 		setAge(a);
 		cout << ".생성자 호출 " << name << endl;
