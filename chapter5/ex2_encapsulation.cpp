@@ -42,10 +42,10 @@ public:
 };
 
 int main() {
-  Student s("Kim", 20);
+	Student s("Kim", 20);
 	Student b{ "Lee", 22 }; 
 	Student c{ "Park", -25 };    
-  s.introduce();
+	s.introduce();
 	b.introduce();
 	c.introduce();
 }
