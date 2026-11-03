@@ -3,7 +3,7 @@ using namespace std;
 class Spaceship {
     int x;
 public:
-    explicit Spaceship(int initialX) : x(initialX) {
+    Spaceship(int initialX) : x(initialX) {
         cout << "Constructor: x=" << x << '\n';
     }
     ~Spaceship() { cout << "Destructor\n"; }
