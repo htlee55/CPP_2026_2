@@ -43,11 +43,11 @@ public:
 
 class FastEnemy : public Spaceship {
 public:
-    FastEnemy(float x, float y): Spaceship(x, y, 2.4f) {
+    FastEnemy(float x, float y): Spaceship(x, y, 3.0f) {
         shape.setFillColor(sf::Color(240, 90, 90));
 	}
     void update() {
-		move(0.f, 2.f);     // Move downwards faster,   
+		move(0.f, 1.f);     // Move downwards faster,   
 		if (position().y > 620.f) shape.setPosition(position().x, -20.f);   // 리셋, 화면 밖으로 나가면 위로 이동, -20
     }
 };
