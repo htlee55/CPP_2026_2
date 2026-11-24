@@ -82,7 +82,7 @@ int main() {
 
     PlayerSpaceship player(400.f, 520.f);
     EnemySpaceship enemy(320.f, 30.f);
-    FastEnemy fastEnemy(500.f, 30.f);
+    FastEnemy fastEnemy(200.f, 30.f);
 
     // 서로 다른 자식 객체를 부모 포인터로 함께 관리
     // 객체는 main()에서 생성되며, ships는 객체를 소유하지 않음
